@@ -1,0 +1,246 @@
+body {
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+
+
+}
+.header {
+    background-color: #285928;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+}
+.menu {
+    float: right;
+    margin-bottom: 8px;
+}
+
+
+
+
+.container
+{
+    margin: 10%;
+
+}
+li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin-right: 100px;
+    margin-top: -50px;
+}
+
+.banner a{
+    text-decoration: none;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    margin-left: 5px;
+    color: #285928;
+}
+
+
+.menu-link
+{
+    color: white;
+
+}
+
+.menu a:link
+{
+    color:white;
+    text-decoration: none;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+
+}
+.menu a:visited
+{
+    color:white;
+
+}
+.menu a:hover
+{
+    border-bottom: white;
+    border-width: medium;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    transition: border 0.2s;
+    transition-timing-function: ease-in-out;
+
+
+}
+.menu a:active
+{
+
+
+}
+
+.menu-bar{
+    background-color: white;
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    left: 665px;
+    top: 44px;
+    visibility: hidden;
+}
+
+h1{
+    font-family: "Arial Black";
+    font-weight: 900;
+    font-stretch: condensed;
+    color: #285928;
+}
+
+#banner-text{
+    height: 90px;
+    width: 500px;
+    font-family: "Century Gothic";
+    margin-top: -20px;
+}
+
+h2{
+    color: #fcfc07;
+    font-family: "arial";
+    margin-left: 800px;
+    margin-top: -20px;
+    margin-bottom: -100px;
+    padding-bottom: 0;
+}
+
+#sub-banner-text{
+    width: 700px;
+    height: 150px;
+    font-family: "Century Gothic";
+    margin-left: 250px;
+    margin-top: -404px;
+    padding-top: 0;
+    color: white;
+
+}
+
+#head{
+
+}
+
+.products{
+    margin-top: 80px;
+
+}
+
+.back-rec{
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 170px;
+}
+
+#rec{
+    clip-path: polygon(0 30%, 100% 0, 100% 70%, 0 100%);
+    padding-top: 50px;
+    z-index: -1;
+    opacity: .8;
+}
+
+#sign-in{
+    padding: 10px;
+    width: 70px;
+    color: white;
+    background-color: #1abc0e;
+}
+
+.footer{
+    background-color: darkgrey;
+    width: 100%;
+    height: 150px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-family: "Century Gothic";
+    font-size: small;
+}
+
+#copyright{
+    margin-left: 500px;
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 15px;
+    margin-top: 700px;
+}
+
+.flex-contain{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item{
+    background-color: khaki;
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    padding: 40px;
+    box-shadow: 5px 10px 10px grey;
+    color: white;
+}
+
+.img{
+    margin-left: 13px;
+}
+
+h3{
+    margin-left: 50px;
+}
+
+.contact{
+    background-color: red;
+    height: 50px;
+    width: 250px;
+    margin-left: 40px;
+}
+
+.slideshow{
+    width: 100%;
+    height: 500px;
+    margin-top: -50px;
+}
+
+.slideshow img{
+    width: inherit;
+    height: inherit;
+    margin-top: inherit;
+}
+
+/** sign up **/
+/**------------------sign up--------------**/
+
+.sign-up{
+    background-color: #285928;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+
+}
+
+/**--------------------login--------------------**/
+/**--------------------login--------------------**/
+/**--------------------login--------------------**/
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<!----header------>
+<div id="header-section" class="header">
+    <div class="menu">
+        <ul>
+            <li> <a class="menu-link" href="index.html">Home</a></li>
+            <li> <a class="menu-link" href="connect.html">Connect</a></li>
+            <li> <a class="menu-link" href="contact.html">Contact</a></li>
+            <li> <a class="menu-link" href="about.html">About</a></li>
+        </ul>
+    </div>
+</div>
+<!---end header---->
+
+<h1 id="login">LOGIN</h1>
+<!-----form------>
+<form>
+    <input type="text" name="username" placeholder="Username" id="u-name"><br>
+    <input type="password" name="password" placeholder="Password" id="p-word"><br>
+    <button type="button" id="log-in" onclick="check()">Login</button>
+</form>
+<!-----end form------>
+<a href="#">
+    <p>Don't have an account? <span>Sign Up</span><br></p>
+</a>
+
+<a href="#">
+    <p id="forgot-pass">Forgot password?</p>
+</a>
+<br>
+<br>
+<br>
+<br>
+<div id="footer-section" class="footer">
+    <a href="#">FAQ</a>  <br/>
+    <a href="#">Contact Us:</a>
+    <div class="contact">
+        <i class="glyphicon glyphicon-cloud">cloud</i>
+
+    </div>
+    <br/>
+    <a href="#">About</a>  <br/>
+    <span id="copyright">Copyright © 2020 AMS Ltd.</span> <br/>
+</div>
+
+<script src="login-check.js"></script>
+</body>
+
+</html>

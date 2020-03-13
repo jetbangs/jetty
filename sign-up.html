@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+  <title>Sign up | AWS</title>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="robots" content="NONE,NOARCHIVE">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive">
+</head>
+
+<body class="login" data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+    <!-- Header -->
+    <div id="header-section" class="header">
+    <div class="menu">
+        <ul>
+            <li> <a class="menu-link" href="index.html">Home</a></li>
+            <li> <a class="menu-link" href="connect.html">Connect</a></li>
+            <li> <a class="menu-link" href="contact.html">Contact</a></li>
+            <li> <a class="menu-link" href="about.html">About</a></li>
+        </ul>
+    </div>
+</div>
+    <!-- END Header -->
+
+    <!-- Content -->
+    <div id="content" style="margin-top: 100px">
+      <div id="content-main">
+        <form action="signUp-function.js" method="post" id="login-form">
+          <div class="form-row">
+            <label class="required" for="id_username">First name:</label> <input type="text" name="firstname" autofocus required id="id_username">
+          </div>
+          <div class="form-row">
+            <label class="required" for="id_username">Last name:</label> <input type="text" name="lastname" autofocus required id="id_username1">
+          </div>
+          <div class="form-row">
+            <label class="required" for="id_username">Email:</label> <input type="email" name="username" autofocus required id="id_username">
+          </div>
+          <div class="form-row">
+            <label class="required" for="id_username">Phone:</label> <input type="tel" name="phone" autofocus required id="id_username">
+          </div>
+          <div class="form-row">
+            <label class="required" for="id_password">Password:</label> <input type="password" name="password" required id="id_password">
+            <input type="hidden" name="next" value="/admin/">
+          </div>
+          <div class="submit-row">
+              <button type="submit" onclick="signUp()">Sign up</button>
+          </div>
+          <span class="alt-link form-row help">
+              <br>Already have an account?&nbsp;<a href="login.html">Log in</a>
+          </span>
+        </form>
+      </div>
+    </div>
+    <!-- END Content -->
+
+    <div id="footer">
+    </div>
+</div>
+<!-- END Container -->
+<script src="signUp-function.js"></script>
+
+</body>
+</html>
+
+
